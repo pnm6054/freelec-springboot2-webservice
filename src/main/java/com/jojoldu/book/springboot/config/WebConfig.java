@@ -1,7 +1,7 @@
 package com.jojoldu.book.springboot.config;
 
 import lombok.RequiredArgsConstructor;
-import com.jojoldu.book.springboot.config.auth.dto.LoginUserArgumentResolver;
+import com.jojoldu.book.springboot.config.auth.LoginUserArgumentResolver;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
